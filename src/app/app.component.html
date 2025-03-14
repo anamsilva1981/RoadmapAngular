@@ -1,5 +1,8 @@
+<hr>
+<h3>@ Input()</h3>
+
 <app-input
-    [contador]="addValue"
+[contador]="addValue"
 ></app-input>
 
 <button (click)="add()">Add</button>
@@ -7,5 +10,15 @@
 <br>
 <button (click)="remove()">Remove</button>
 
+
+<hr>
+
+<app-input
+    [userName]="nomePai"
+></app-input>
+
+<app-input
+    [userName]="'Josefina de Jesus'"
+></app-input>
 
 <router-outlet></router-outlet>

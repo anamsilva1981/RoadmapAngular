@@ -8,6 +8,8 @@ import { Component } from '@angular/core';
 export class AppComponent {
   public addValue: number = 10;
 
+  public nomePai: string = "Josefina"
+
   public add(){
     this.addValue += 1;
   }  
