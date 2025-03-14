@@ -9,4 +9,6 @@ export class InputComponent {
 
   @Input() public contador: number = 0;
 
+  @Input() userName!: string;
+
 }
