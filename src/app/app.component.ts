@@ -11,4 +11,10 @@ export class AppComponent {
   public add(){
     this.addValue += 1;
   }  
+
+  public remove(){
+    this.addValue -= 1;
+  }
+
+
 }
